@@ -21,7 +21,8 @@ class Client
   # @param [Object] body
   # @param [Object] my_mail
   # @param [Object] password
-  def sending(send_to, subject, body, my_mail, password,index)
+  def sending(send_to, subject, body, my_mail, password, index)
+
     Pony.mail(
       subject: subject,
       body: body,
