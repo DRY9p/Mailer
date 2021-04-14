@@ -23,8 +23,8 @@ lines.each_index do |i|
   send_to.push(lines[i].chomp)
 end
 
-my_mail = 'smrtb.inf@gmail.com'
-password = '21tz199821tz1998'
+my_mail = ''
+password = ''
 
 puts "----------------------------------------------------\n"\
      "|                                                  |\n"\
